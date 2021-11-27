@@ -7,8 +7,7 @@ elif guessed_num==randm_numbr:
    print("Wow the number is right ")
 elif guessed_num<randm_numbr:
    print("The guessed number is low ")
-elif guessed_num>randm_numbr:
-   print("The guessed number is high ")
 else:
-  print("Guessed number should be between 1 and 9")
+   print("The guessed number is high ")
+
 print("The random number is "+str(randm_numbr))
